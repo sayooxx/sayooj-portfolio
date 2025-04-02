@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("Image/bg1.png") no-repeat center center/cover;
+    color: white;
+}
+
+.main .content h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.btn {
+    background: #3a6cf4;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.about, .skills, .contact {
+    background: white;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+footer {
+    background: #000016;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
