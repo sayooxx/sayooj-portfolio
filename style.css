@@ -52,6 +52,10 @@ section {
     margin: 20px;
 }
 
+p {
+  font-size: 25px;
+}
+
 .skills ul {
     list-style: none;
     padding: 0;
